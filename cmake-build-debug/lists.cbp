@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lists"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest\;CMake Files\tests\lib\gtest\googletest\;CMake Files\tests\lib\gtest\googletest\cmake\;CMake Files\tests\list\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/lib/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_custom">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_custom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_custom"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_custom/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_custom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_custom/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_doubly">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_doubly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_doubly"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_doubly/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_doubly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_doubly/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_singly">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_singly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_singly"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests_singly/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/tests_singly" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/include"/>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 tests_singly/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/tests/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dummy">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/dummy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dummy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dummy/fast">
+				<Option output="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/dummy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 dummy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/dummy.cpp">
+			<Option target="dummy"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include/forward_list.h">
+			<Option target="main"/>
+			<Option target="tests_custom"/>
+			<Option target="tests_doubly"/>
+			<Option target="tests_singly"/>
+			<Option target="dummy"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/include/list.h">
+			<Option target="main"/>
+			<Option target="tests_custom"/>
+			<Option target="tests_doubly"/>
+			<Option target="tests_singly"/>
+			<Option target="dummy"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/list/custom_tests.cpp">
+			<Option target="tests_custom"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/list/forward_list_tests.cpp">
+			<Option target="tests_singly"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/list/list_tests.cpp">
+			<Option target="tests_doubly"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/list/test_runner.cpp">
+			<Option target="tests_custom"/>
+			<Option target="tests_doubly"/>
+			<Option target="tests_singly"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lib\gtest\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/lib/gtest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\lib\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/tests/list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\list\"/>
+		</Unit>
+		<Unit filename="/Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

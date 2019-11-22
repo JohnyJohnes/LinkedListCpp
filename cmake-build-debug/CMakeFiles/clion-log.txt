@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes
+Detected compiler: AppleClang 10.0.0.10001044
+-- cppcheck not found - consider adding it to the path.
+-- Sanitizers enabled for *nix.
+loading tests
+CMake Warning at tests/lib/gtest/googletest/CMakeLists.txt:47 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+-- Creating test target: tests_custom
+-- Creating test target: tests_singly
+-- Creating test target: tests_doubly
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/arseniybelyakov/Documents/Datastructures/week-1-lists-JohnyJohnes/cmake-build-debug
